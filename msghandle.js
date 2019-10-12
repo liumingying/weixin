@@ -22,7 +22,7 @@ function userMsg (wxmsg,retmsg){
 	             return formatMsg(retmsg);
 		case 'who':
 		     retmsg.msgtype = 'text';
-	             retmsg.msg = '2017级5班 刘明瑛 \n 学号:2017011889';
+	             retmsg.msg = '2017级5班 刘明瑛 学号:2017011889';
 	             return formatMsg(retmsg);
                 default:
 		     retmsg.msgtype = wxmsg.MsgType;
