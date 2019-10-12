@@ -20,6 +20,10 @@ function userMsg (wxmsg,retmsg){
 	             retmsg.msgtype = 'text';
 	             retmsg.msg = '我是这个测试号开发者，如果有疑问可咨询123@qq.com';
 	             return formatMsg(retmsg);
+		case 'who':
+		     retmsg.msgtype = 'text';
+	             retmsg.msg = '2017级5班 刘明瑛 \n 学号:2017011889';
+	             return formatMsg(retmsg);
                 default:
 		     retmsg.msgtype = wxmsg.MsgType;
 	             retmsg.msg = wxmsg.Content;
